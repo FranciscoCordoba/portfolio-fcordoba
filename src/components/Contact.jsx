@@ -1,0 +1,35 @@
+import { portfolioData } from '../data/portfolioData';
+
+export const Contact = () => {
+    const { contact } = portfolioData;
+
+    return (
+        <section className="scroll-mt-20 py-12" id="contact">
+            <div className="glass-panel rounded-3xl p-8 md:p-16 text-center relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/10 blur-[80px] rounded-full translate-y-1/2 -translate-x-1/2"></div>
+
+                <div className="relative z-10 max-w-3xl mx-auto space-y-8">
+                    <h2 className="text-3xl md:text-5xl font-display font-bold text-white leading-tight">
+                        ¿Listo para lanzar tu <br />próximo producto digital?
+                    </h2>
+                    <p className="text-slate-400 text-lg">
+                        Actualmente estoy disponible para proyectos freelance y abierto a nuevas oportunidades.
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                        <a
+                            href={`mailto:${contact.email}`}
+                            className="h-12 px-8 flex items-center justify-center rounded-lg bg-white text-background font-bold text-base hover:bg-slate-200 transition-all w-full sm:w-auto"
+                        >
+                            Hablemos
+                        </a>
+                        <a href={contact.cv} download target="_blank" rel="noopener noreferrer" className="h-12 px-8 flex items-center justify-center rounded-lg border border-white/10 hover:border-white/30 hover:bg-white/5 text-white font-medium text-base transition-all w-full sm:w-auto cursor-pointer">
+                            Descargar CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
