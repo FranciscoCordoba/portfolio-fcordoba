@@ -25,6 +25,8 @@ export const Hero = () => {
                     </p>
                 </div>
 
+                <ImageHero visibility="block lg:hidden" />
+
                 <div className="flex flex-wrap gap-4 pt-4">
                     <a href="#projects" className="h-12 px-8 rounded-lg bg-primary text-background font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_0_20px_rgba(6,182,212,0.25)] hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] flex items-center justify-center cursor-pointer">
                         {hero.buttons.primary}
@@ -38,25 +40,31 @@ export const Hero = () => {
 
             <div className="relative order-1 lg:order-2 flex justify-center">
                 <div className="absolute inset-0 bg-linear-to-tr from-primary/20 to-secondary/20 blur-[80px] rounded-full"></div>
-                <div className="glass-panel rounded-2xl p-2 w-full max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group">
-                    <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-50"></div>
-                    <div
-                        className="w-full h-full rounded-xl bg-center bg-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                        style={{ backgroundImage: `url('${hero.abstractImage}')` }}
-                        aria-label="Abstract code background theme"
-                    ></div>
-
-                    <div className="absolute bottom-6 left-6 right-6 glass-panel rounded-lg p-4 flex items-center justify-between">
-                        <div>
-                            <h3 className="text-white font-bold text-sm">Enfoque Actual</h3>
-                            <p className="text-xs text-slate-400">React y Desarrollo Web Moderno</p>
-                        </div>
-                        <div className="size-10 rounded-full bg-black/50 flex items-center justify-center text-primary">
-                            <Code size={20} />
-                        </div>
-                    </div>
-                </div>
+                <ImageHero visibility="hidden lg:block" />
             </div>
         </section>
     );
+    function ImageHero({ visibility }) {
+        return (
+            <div className={`${visibility} glass-panel rounded-2xl p-2 mx-auto w-full max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group`}>
+                <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-50"></div>
+                <div
+                    className="w-full h-full rounded-xl bg-center bg-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    aria-label="Abstract code background theme"
+                >
+                    <img src={hero.abstractImage} className="w-full h-full object-cover" alt="Una computadora con codigo" />
+                </div>
+
+                <div className="absolute bottom-6 left-6 right-6 glass-panel rounded-lg p-4 flex items-center justify-between">
+                    <div>
+                        <h3 className="text-white font-bold text-sm">Enfoque Actual</h3>
+                        <p className="text-xs text-slate-400">React y Desarrollo Web Moderno</p>
+                    </div>
+                    <div className="size-10 rounded-full bg-black/50 flex items-center justify-center text-primary">
+                        <Code size={20} />
+                    </div>
+                </div>
+            </div>
+        )
+    }
 };
