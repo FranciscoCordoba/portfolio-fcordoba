@@ -37,13 +37,10 @@ export const Header = () => {
             </div>
 
             {isOpen && (
-                <div className="md:hidden absolute top-20 left-0 w-full glass-panel border-t border-white/5 flex flex-col p-4 gap-4 animate-in fade-in slide-in-from-top-4">
+                <div className="md:hidden absolute top-20 left-0 w-full bg-background/95 backdrop-blur-xl border-t border-white/5 flex flex-col p-4 gap-4 animate-in fade-in slide-in-from-top-4">
                     <a className="block text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#projects" onClick={() => setIsOpen(false)}>Proyectos</a>
                     <a className="block text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#skills" onClick={() => setIsOpen(false)}>Habilidades</a>
                     <a className="block text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#contact" onClick={() => setIsOpen(false)}>Contacto</a>
-                    <button className="w-full h-10 flex items-center justify-center rounded-lg bg-primary text-background font-bold text-sm tracking-wide hover:bg-cyan-400 transition-all mt-2">
-                        Contrátame
-                    </button>
                 </div>
             )}
         </header>
