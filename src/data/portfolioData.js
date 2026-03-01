@@ -34,7 +34,7 @@ export const portfolioData = {
         { name: "MCP", icon: "ServerCogIcon", colorClass: "text-teal-400" }
     ],
     projects: [
-        {
+        /* {
             title: "Farmacia Macrofarma",
             category: "Landing Page de farmacia Macrofarma",
             tag: "ReactJS + Tailwind CSS + Skills/MCP",
@@ -49,7 +49,7 @@ export const portfolioData = {
             image: "/mas-pizza-web.png",
             link: "https://github.com/FranciscoCordoba/franquicia-mas-pizza",
             website: "https://franquicia-mas-pizza.pages.dev/"
-        },
+        }, */
         {
             title: "To-Do List App",
             category: "Herramienta de Gestión de Productividad",
@@ -57,7 +57,7 @@ export const portfolioData = {
             image: "/to-do-app-web.png",
             link: "https://github.com/FranciscoCordoba/To-Do-List",
             website: "https://to-do-list-snowy-six-50.vercel.app/"
-        },
+        }/* ,
         {
             title: "Farmacia Santa Maria",
             category: "Landing Page de farmacia Santa Maria",
@@ -65,7 +65,7 @@ export const portfolioData = {
             image: "/santa-maria-web.png",
             link: "https://github.com/FranciscoCordoba/farmacia-santa-maria",
             website: "https://farmacia-santa-maria.vercel.app/"
-        }
+        } */
     ],
     contact: {
         email: "franciscoleon45@gmail.com",
