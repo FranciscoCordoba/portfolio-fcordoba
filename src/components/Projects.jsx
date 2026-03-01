@@ -13,7 +13,7 @@ export const Projects = () => {
 
             <div className="grid md:grid-cols-2 gap-8">
                 {projects.map((project, idx) => (
-                    <div key={idx} className="group glass-panel rounded-2xl overflow-hidden hover:border-primary/30 transition-all duration-300">
+                    <div key={idx} className="group bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-2xl overflow-hidden hover:border-primary/30 transition-all duration-300">
                         <div className="aspect-video w-full bg-slate-800 relative overflow-hidden">
                             <div className="absolute inset-0 bg-linear-to-t from-background/90 to-transparent z-10"></div>
                             <div

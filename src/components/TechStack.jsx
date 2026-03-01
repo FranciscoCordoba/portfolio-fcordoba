@@ -28,7 +28,7 @@ export const TechStack = () => {
                     const IconComponent = iconMap[skill.icon] || CodeIcon;
 
                     return (
-                        <div key={idx} className="glass-panel p-5 rounded-xl hover:bg-white/5 transition-all group flex flex-col items-center gap-3 text-center border-t border-t-white/10 hover:border-primary/50">
+                        <div key={idx} className="bg-zinc-900/40 backdrop-blur-md border border-white/10 p-5 rounded-xl hover:bg-white/5 transition-all group flex flex-col items-center gap-3 text-center hover:border-primary/50">
                             <div className={`p-3 rounded-lg bg-slate-900/50 ${skill.colorClass} group-hover:scale-110 transition-transform duration-300 flex items-center justify-center`}>
                                 <IconComponent size={32} strokeWidth={1.5} />
                             </div>

@@ -48,7 +48,7 @@ export const Hero = () => {
 
     function ImageHero({ visibility }) {
         return (
-            <div className={`${visibility} glass-panel rounded-2xl p-2 mx-auto w-full max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group`}>
+            <div className={`${visibility} bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-2 mx-auto w-full max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group`}>
                 <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-50"></div>
                 <div
                     className="w-full h-full rounded-xl bg-center bg-cover grayscale group-hover:grayscale-0 transition-all duration-500"
@@ -57,7 +57,7 @@ export const Hero = () => {
                     <img src={hero.abstractImage} className="w-full h-full object-cover" alt="Una computadora con codigo" />
                 </div>
 
-                <div className="absolute bottom-6 left-6 right-6 glass-panel rounded-lg p-4 flex items-center justify-between">
+                <div className="absolute bottom-6 left-6 right-6 bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-lg p-4 flex items-center justify-between">
                     <div>
                         <h3 className="text-white font-bold text-sm">Enfoque Actual</h3>
                         <p className="text-xs text-slate-400">React y Desarrollo Web Moderno</p>

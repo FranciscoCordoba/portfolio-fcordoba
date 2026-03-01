@@ -5,7 +5,7 @@ export const Contact = () => {
 
     return (
         <section className="scroll-mt-20 py-12" id="contact">
-            <div className="glass-panel rounded-3xl p-8 md:p-16 text-center relative overflow-hidden">
+            <div className="bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-3xl p-8 md:p-16 text-center relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-110 h-110 bg-[radial-gradient(circle,rgba(6,182,212,0.07)_0%,transparent_70%)] rounded-full -translate-y-1/2 translate-x-1/2"></div>
                 <div className="absolute bottom-0 left-0 w-110 h-110 bg-[radial-gradient(circle,rgba(139,92,246,0.07)_0%,transparent_70%)] rounded-full translate-y-1/2 -translate-x-1/2"></div>
 
