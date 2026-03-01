@@ -45,6 +45,7 @@ export const Hero = () => {
             </div>
         </section>
     );
+
     function ImageHero({ visibility }) {
         return (
             <div className={`${visibility} glass-panel rounded-2xl p-2 mx-auto w-full max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group`}>

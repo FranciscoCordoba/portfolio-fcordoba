@@ -10,7 +10,7 @@
 
   --font-sans: "Space Grotesk", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
-  
+
   --background-image-cyber-gradient: radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.15) 0%, rgba(9, 9, 11, 0) 50%);
   --background-image-card-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
 }
@@ -21,14 +21,14 @@
   }
 }
 
-@layer utilities {
-  .glass-panel {
-    background: rgba(24, 24, 27, 0.4);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-  }
-  .text-glow {
-    text-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
-  }
+/* Utilizamos CSS estándar en lugar de @layer utilities para evitar que Vite optimice/elimine las clases en Tailwind v4 durante el build a producción */
+.glass-panel {
+  background: rgba(24, 24, 27, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
 }
