@@ -38,7 +38,8 @@ export const Hero = () => {
                 </div>
             </div>
 
-            <div className="relative order-1 lg:order-2 flex justify-center">
+            {/* Ocultamos el div y su gradiente en mobile para no ocupar espacio invisible en la grilla */}
+            <div className="relative hidden lg:flex order-1 lg:order-2 justify-center">
                 <div className="absolute inset-0 bg-linear-to-tr from-primary/20 to-secondary/20 blur-[80px] rounded-full"></div>
                 <ImageHero visibility="hidden lg:block" />
             </div>

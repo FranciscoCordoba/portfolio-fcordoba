@@ -6,8 +6,8 @@ export const Contact = () => {
     return (
         <section className="scroll-mt-20 py-12" id="contact">
             <div className="glass-panel rounded-3xl p-8 md:p-16 text-center relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
-                <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/10 blur-[80px] rounded-full translate-y-1/2 -translate-x-1/2"></div>
+                <div className="absolute top-0 right-0 w-110 h-110 bg-[radial-gradient(circle,rgba(6,182,212,0.07)_0%,transparent_70%)] rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                <div className="absolute bottom-0 left-0 w-110 h-110 bg-[radial-gradient(circle,rgba(139,92,246,0.07)_0%,transparent_70%)] rounded-full translate-y-1/2 -translate-x-1/2"></div>
 
                 <div className="relative z-10 max-w-3xl mx-auto space-y-8">
                     <h2 className="text-3xl md:text-5xl font-display font-bold text-white leading-tight">
