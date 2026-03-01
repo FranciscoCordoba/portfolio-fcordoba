@@ -68,7 +68,7 @@ export const portfolioData = {
         } */
     ],
     contact: {
-        email: "franciscoleon45@gmail.com",
+        email: "franciscocordoba.dev@gmail.com",
         linkedin: "http://www.linkedin.com/in/francisco-cordoba-dev",
         github: "https://github.com/FranciscoCordoba",
         cv: "/CV-Francisco-Cordoba.pdf"
