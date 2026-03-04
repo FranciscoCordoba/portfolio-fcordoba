@@ -1,5 +1,6 @@
 import { Code, Mail, Linkedin, Github } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
+import Whatsapp from './icons/Whatsapp';
 
 export const Footer = () => {
     const { contact, header } = portfolioData;
@@ -17,10 +18,12 @@ export const Footer = () => {
 
                     <div className="flex items-center gap-4">
                         <a
-                            href={`mailto:${contact.email}`}
+                            href={`https://wa.me/${contact.phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-slate-400 hover:text-primary transition-colors text-sm font-medium flex items-center gap-2"
                         >
-                            <Mail size={18} />
+                            <Whatsapp size={18} />
                         </a>
                         <a
                             href={contact.linkedin}

@@ -11,7 +11,7 @@ export const portfolioData = {
         description: "Construyendo experiencias digitales audaces e interactivas. Creando soluciones web modernas con precisión, estilo y una arquitectura limpia.",
         buttons: {
             primary: "Ver Proyectos",
-            secondary: "Contáctame"
+            secondary: "Contactame"
         },
         clients: {
             text: "Más de 10 empresas confían en mí",
@@ -71,6 +71,7 @@ export const portfolioData = {
         email: "franciscocordoba.dev@gmail.com",
         linkedin: "http://www.linkedin.com/in/francisco-cordoba-dev",
         github: "https://github.com/FranciscoCordoba",
+        phone: "5492664572720",
         cv: "/CV-Francisco-Cordoba.pdf"
     }
 };
