@@ -20,7 +20,7 @@ export const Contact = () => {
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
                         <a
-                            href={`https://wa.me/${contact.phone}`}
+                            href={`https://wa.me/${contact.phone}?text=${contact.msg}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="h-12 px-8 flex items-center justify-center gap-2 rounded-lg bg-white text-background font-bold text-base hover:bg-slate-200 transition-all w-full sm:w-auto"

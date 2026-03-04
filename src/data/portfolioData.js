@@ -72,6 +72,7 @@ export const portfolioData = {
         linkedin: "http://www.linkedin.com/in/francisco-cordoba-dev",
         github: "https://github.com/FranciscoCordoba",
         phone: "5492664572720",
+        msg: "Hola! Vi tu portfolio y me gustaría contratarte para un proyecto.",
         cv: "/CV-Francisco-Cordoba.pdf"
     }
 };
