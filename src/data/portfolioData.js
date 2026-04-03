@@ -51,6 +51,14 @@ export const portfolioData = {
             website: "https://franquicia-mas-pizza.pages.dev/"
         }, */
         {
+            title: "Editorial Mito",
+            category: "Landing Page oficial de editorial de libros",
+            tag: "ReactJS + Tailwind CSS",
+            image: "/editorialmito.ar_.png",
+            link: "https://github.com/FranciscoCordoba/mito-editorial",
+            website: "https://editorialmito.ar/"
+        },
+        {
             title: "To-Do List App",
             category: "Herramienta de Gestión de Productividad",
             tag: "HTML + CSS + JS + Bootstrap",
