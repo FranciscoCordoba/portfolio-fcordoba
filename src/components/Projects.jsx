@@ -36,15 +36,16 @@ export const Projects = () => {
                                     <p className="text-slate-400 text-sm">{project.category}</p>
                                 </div>
                                 <div className="flex items-center gap-3">
-                                    <a
-                                        href={project.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="size-10 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center transition-colors shadow-[0_0_15px_rgba(30,41,59,0.5)]"
-                                        aria-label={`Code repo for ${project.title}`}
-                                    >
-                                        <Github size={20} />
-                                    </a>
+                                    {project.link && (
+                                        <a
+                                            href={project.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="size-10 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center transition-colors shadow-[0_0_15px_rgba(30,41,59,0.5)]"
+                                            aria-label={`Code repo for ${project.title}`}
+                                        >
+                                            <Github size={20} />
+                                        </a>)}
                                     <a
                                         href={project.website}
                                         target="_blank"

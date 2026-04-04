@@ -55,7 +55,7 @@ export const portfolioData = {
             category: "Landing Page oficial de editorial de libros",
             tag: "ReactJS + Tailwind CSS",
             image: "/editorialmito.ar_.png",
-            link: "https://github.com/FranciscoCordoba/mito-editorial",
+            /*link: "https://github.com/FranciscoCordoba/mito-editorial",*/
             website: "https://editorialmito.ar/"
         },
         {
