@@ -34,14 +34,7 @@ export const portfolioData = {
         { name: "MCP", icon: "ServerCogIcon", colorClass: "text-teal-400" }
     ],
     projects: [
-        /* {
-            title: "Farmacia Macrofarma",
-            category: "Landing Page de farmacia Macrofarma",
-            tag: "ReactJS + Tailwind CSS + Skills/MCP",
-            image: "/macrofarma-web.png",
-            link: "https://github.com/FranciscoCordoba/farmacia-macrofarma",
-            website: "https://farmacia-macrofarma.pages.dev/"
-        },
+        /*
         {
             title: "Franquicia Mas Pizza",
             category: "Portal de Cadena de Restaurantes",
@@ -52,11 +45,27 @@ export const portfolioData = {
         }, */
         {
             title: "Editorial Mito",
-            category: "Landing Page oficial de editorial de libros",
-            tag: "ReactJS + Tailwind CSS",
+            category: "Landing Page OFICIAL de editorial de libros",
+            tag: "ReactJS + Tailwind CSS + Skills/MCP",
             image: "/editorialmito.ar_.png",
             /*link: "https://github.com/FranciscoCordoba/mito-editorial",*/
             website: "https://editorialmito.ar/"
+        },
+        {
+            title: "Farmacia Macrofarma",
+            category: "DEMO - Landing Page de farmacia Macrofarma",
+            tag: "ReactJS + Tailwind CSS",
+            image: "/macrofarma-web.png",
+            link: "https://github.com/FranciscoCordoba/farmacia-macrofarma",
+            website: "https://farmacia-macrofarma.pages.dev/"
+        },
+        {
+            title: "Farmacia Santa Maria",
+            category: "DEMO -Landing Page de farmacia Santa Maria",
+            tag: "ReactJS + Tailwind CSS",
+            image: "/santa-maria-web.png",
+            link: "https://github.com/FranciscoCordoba/farmacia-santa-maria",
+            website: "https://farmacia-santa-maria.vercel.app/"
         },
         {
             title: "To-Do List App",
@@ -65,15 +74,7 @@ export const portfolioData = {
             image: "/to-do-app-web.png",
             link: "https://github.com/FranciscoCordoba/To-Do-List",
             website: "https://to-do-list-snowy-six-50.vercel.app/"
-        }/* ,
-        {
-            title: "Farmacia Santa Maria",
-            category: "Landing Page de farmacia Santa Maria",
-            tag: "ReactJS + Tailwind CSS",
-            image: "/santa-maria-web.png",
-            link: "https://github.com/FranciscoCordoba/farmacia-santa-maria",
-            website: "https://farmacia-santa-maria.vercel.app/"
-        } */
+        }
     ],
     contact: {
         email: "franciscocordoba.dev@gmail.com",
