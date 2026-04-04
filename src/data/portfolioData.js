@@ -61,11 +61,19 @@ export const portfolioData = {
         },
         {
             title: "Farmacia Santa Maria",
-            category: "DEMO -Landing Page de farmacia Santa Maria",
+            category: "DEMO - Landing Page de farmacia Santa Maria",
             tag: "ReactJS + Tailwind CSS",
             image: "/santa-maria-web.png",
             link: "https://github.com/FranciscoCordoba/farmacia-santa-maria",
             website: "https://farmacia-santa-maria.vercel.app/"
+        },
+        {
+            title: "Lluva App",
+            category: "DEMO - Pronostico del clima",
+            tag: "HTML + CSS + JS + Bootstrap + API",
+            image: "/lluva-app.png",
+            link: "https://github.com/FranciscoCordoba/lluva",
+            website: "https://lluva.vercel.app/"
         },
         {
             title: "To-Do List App",
