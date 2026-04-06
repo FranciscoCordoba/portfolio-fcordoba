@@ -21,7 +21,7 @@ export const portfolioData = {
                 "https://lh3.googleusercontent.com/aida-public/AB6AXuDK43XRYM6aFjysLZh3IxzcH0Y5adAwEzLKOGrFHgpmwMUDq6fU23fl0_lRrm54uJ5lv3WdHez9ItoUzGjFoeHWFHuQaV6T1_9jlFYqFn5igbeU_ffF9NFReD4Yszks8aIgKXIOImMe-MszIiMBAQnj5KzuI3NM67lIZNe60aTEivshDF0QFjvfuBV6-dUN4EDRQQJQGbEaxSVVxzY7QlXmtMgJ-4yN1ABz2C_BzebJV0GfWhWyDFfkuuUgTfDNLCNJfo_iWYwcwL0"
             ]
         },
-        abstractImage: "/img-heroo.jpg"
+        abstractImage: "/img-heroo.webp"
     },
     skills: [
         { name: "ReactJs", icon: "CodeIcon", colorClass: "text-cyan-400" },
@@ -39,7 +39,7 @@ export const portfolioData = {
             title: "Franquicia Mas Pizza",
             category: "Portal de Cadena de Restaurantes",
             tag: "ReactJS + Tailwind CSS",
-            image: "/mas-pizza-web.png",
+            image: "/mas-pizza-web.webp",
             link: "https://github.com/FranciscoCordoba/franquicia-mas-pizza",
             website: "https://franquicia-mas-pizza.pages.dev/"
         }, */
@@ -47,7 +47,7 @@ export const portfolioData = {
             title: "Editorial Mito",
             category: "Landing Page OFICIAL de editorial de libros",
             tag: "ReactJS + Tailwind CSS + Skills/MCP",
-            image: "/editorialmito.ar_.png",
+            image: "/editorialmito.ar_.webp",
             /*link: "https://github.com/FranciscoCordoba/mito-editorial",*/
             website: "https://editorialmito.ar/"
         },
@@ -55,7 +55,7 @@ export const portfolioData = {
             title: "Farmacia Macrofarma",
             category: "DEMO - Landing Page de farmacia Macrofarma",
             tag: "ReactJS + Tailwind CSS",
-            image: "/macrofarma-web.png",
+            image: "/macrofarma-web.webp",
             link: "https://github.com/FranciscoCordoba/farmacia-macrofarma",
             website: "https://farmacia-macrofarma.pages.dev/"
         },
@@ -63,7 +63,7 @@ export const portfolioData = {
             title: "Farmacia Santa Maria",
             category: "DEMO - Landing Page de farmacia Santa Maria",
             tag: "ReactJS + Tailwind CSS",
-            image: "/santa-maria-web.png",
+            image: "/santa-maria-web.webp",
             link: "https://github.com/FranciscoCordoba/farmacia-santa-maria",
             website: "https://farmacia-santa-maria.vercel.app/"
         },
@@ -71,7 +71,7 @@ export const portfolioData = {
             title: "Lluva App",
             category: "DEMO - Pronostico del clima",
             tag: "HTML + CSS + JS + Bootstrap + API",
-            image: "/lluva-app.png",
+            image: "/lluva-app.webp",
             link: "https://github.com/FranciscoCordoba/lluva",
             website: "https://lluva.vercel.app/"
         },
@@ -79,7 +79,7 @@ export const portfolioData = {
             title: "To-Do List App",
             category: "Herramienta de Gestión de Productividad",
             tag: "HTML + CSS + JS + Bootstrap",
-            image: "/to-do-app-web.png",
+            image: "/to-do-app-web.webp",
             link: "https://github.com/FranciscoCordoba/To-Do-List",
             website: "https://to-do-list-snowy-six-50.vercel.app/"
         }

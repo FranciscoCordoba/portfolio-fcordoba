@@ -13,21 +13,21 @@ export const Hero = () => {
                     <span className="text-xs font-semibold text-secondary uppercase tracking-wider">{hero.subtitle}</span>
                 </div>
 
-                <div className="space-y-2">
+                <div className="space-y-2 text-center lg:text-left">
                     <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-black text-white leading-[1.1] tracking-tight">
                         {hero.title.part1} <br />
                         <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary text-glow">
                             {hero.title.part2}
                         </span>
                     </h1>
-                    <p className="text-lg sm:text-xl text-slate-400 max-w-lg leading-relaxed pt-4">
+                    <p className="text-lg sm:text-xl text-slate-400 max-w-lg leading-relaxed pt-4 mx-auto lg:mx-0">
                         {hero.description}
                     </p>
                 </div>
 
-                <ImageHero visibility="block lg:hidden" />
+                <ImageHero visibility="block lg:hidden p-2 m-2 w-80" />
 
-                <div className="flex flex-wrap gap-4 pt-4">
+                <div className="flex flex-wrap gap-4 pt-4 justify-center">
                     <a href="#projects" className="h-12 px-8 rounded-lg bg-primary text-background font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_0_20px_rgba(6,182,212,0.25)] hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] flex items-center justify-center cursor-pointer">
                         {hero.buttons.primary}
                     </a>
@@ -41,14 +41,14 @@ export const Hero = () => {
             {/* Ocultamos el div y su gradiente en mobile para no ocupar espacio invisible en la grilla */}
             <div className="relative hidden lg:flex order-1 lg:order-2 justify-center">
                 <div className="absolute inset-0 bg-linear-to-tr from-primary/20 to-secondary/20 blur-[80px] rounded-full"></div>
-                <ImageHero visibility="hidden lg:block" />
+                <ImageHero visibility="hidden lg:block w-full" />
             </div>
         </section>
     );
 
     function ImageHero({ visibility }) {
         return (
-            <div className={`${visibility} bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-2 mx-auto w-full max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group`}>
+            <div className={`${visibility} bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-2 mx-auto max-w-[400px] aspect-square rotate-3 hover:rotate-0 transition-transform duration-500 ease-out shadow-2xl relative overflow-hidden group`}>
                 <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-50"></div>
                 <div
                     className="w-full h-full rounded-xl bg-center bg-cover grayscale group-hover:grayscale-0 transition-all duration-500"
